@@ -1,0 +1,34 @@
+[
+	{
+		"id": 1,
+		"title": "Крылышки",
+		"itemsInBox": 3,
+		"weight": 180,
+		"price": 270,
+		"imgSrc": "крылышки.jpg"
+	},
+	{
+		"id": 2,
+		"title": "Сэндвич с салями",
+		"itemsInBox": 1,
+		"weight": 120,
+		"price": 165,
+		"imgSrc": "Сэндвич с салями.jpg"
+	},
+	{
+		"id": 3,
+		"title": "Хотдог",
+		"itemsInBox": 1,
+		"weight": 190,
+		"price": 250,
+		"imgSrc": "хотдог.jpg"
+	},
+	{
+		"id": 4,
+		"title": "Шаурма классическая",
+		"itemsInBox": 1,
+		"weight": 200,
+		"price": 190,
+		"imgSrc": "шаурма.webp"
+	}
+]
