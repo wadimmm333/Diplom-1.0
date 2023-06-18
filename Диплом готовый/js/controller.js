@@ -20,6 +20,8 @@ async function getAndRenderProducts() {
 
 getAndRenderProducts();
 
+productsModel.filter();
+
 productsView.elements.productsContainer.addEventListener('click', function (event) {
 	// Совершаемое действие
 	let action = event.target.dataset.action;
@@ -92,3 +94,31 @@ cartView.elements.cartWrapper.addEventListener('click', function (event) {
 		cartView.updateOrderPrice(totalPrice);
 	}
 });
+
+
+
+// const list = document.querySelector('.list');
+// const items = document.querySelectorAll(productsView.renderProducts(productsModel.products));
+
+// function filter() {
+//     list.addEventListener('click', event =>{
+//         const targetId = event.target.dataset.id
+//         console.log(targetId)
+
+//         switch(targetId) {
+//             case 'all':
+//                 break
+//             case 'rol':
+//                 items.forEach(item => {
+//                     if (item.typeProduct = 'rol') {
+//                         item.style.display = 'block'
+//                     } else {
+//                         item.style.display = 'none'
+//                     }
+//                 })
+//                 break
+//         }
+//     })
+    
+// }
+// filter();

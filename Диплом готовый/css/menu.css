@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+
+.Logo, .Top_menu{
+    display: inline-block;
+}
+.Top_menu li{
+    display: inline-block;
+    padding: 20px;
+}
+.Top_menu a{
+    font-family: arial;
+    font-size: 40px;
+    color: orangered;
+    text-decoration: none;
+}
+.Top_menu a:hover {
+    color:fuchsia;
+}

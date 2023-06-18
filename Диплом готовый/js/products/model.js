@@ -36,4 +36,41 @@ export default class Model {
     resetCounter(product) {
         product.counter = 1;
     }
+
+
+
+	
+	
+	
+	filter() {
+		const list = document.querySelector('.list');
+		const items = this.products;
+
+
+		list.addEventListener('click', event =>{
+			const targetId = event.target.dataset.id
+			console.log(targetId)
+	
+			switch(targetId) {
+				case 'all':
+					break
+				case 'rol':
+					items.forEach(item => {
+						if (item.typeProduct = 'rol') {
+							
+							item.style.display = 'block'
+						} else {
+							item.style.display = 'none'
+						}
+					})
+					break
+			}
+		})
+		
+	}
+
+
+
+
+
 }

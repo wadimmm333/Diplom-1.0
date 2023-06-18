@@ -2,25 +2,68 @@
 <html lang="en">
 
 <head>
+	
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	
 	<title>Магазин роллов</title>
 	<link rel="stylesheet" href="libs/bootstrap.min.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/registr.css">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700&amp;subset=cyrillic-ext" rel="stylesheet">
 </head>
 
 <body>
+	
+	<header>
+		<div class="All_header_menu">
+			<!-- <div class="Logo">
+				<h1>Все товары</h1>
+			</div> -->
+			<div class="Top_menu">
+				<ul class="list">
+					<li><a href="#" data-id="all">Главная</a></li>
+					<li><a href="#" data-id="rol">Ролы</a></li>
+					<li><a href="#" data-id="burger">Бургеры</a></li>
+					<li><a href="#" data-id="pizza">Пицца</a></li>
+					<li><a href="#" data-id="all">О нас</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</header>
 
+	<header>
+		<!--Регистрация-->
+		<div class="pop_up" id="pop_up">
+			<div class="pop_up_container">
+				<div class="pop_up_body" id="pop_up_body">
+					<p>Регистрация</p>
+					<forma>
+						<input type="text" placeholder="Email">
+						<div class="password">
+							<input type="password" id="password-input" placeholder="Введите пароль" name="password">
+							<!-- <label><input type="checkbox" class="password-checkbox"> Показать пароль</label> -->
+						</div>
+						<button type="button" onClick="window.location.reload();">Зарегистрироваться</button>
+					</forma>
+					<div class="pop_up_close" id="pop_up_close">&#10006</div>
+				</div>
+			</div>
+		</div>
+	<!--/Регистрация-->
+	</header>
+	
 	<header class="header">
 		<div class="container text-center">
-			<img class="logo" src="img/logo/Лого сайта бургер.png" width="92" alt="Бургер">
+			<img class="logo" src="img/logo/logo2.png" width="92" alt="Суши и пицца">
 			<div class="site-title">МойБургер</div>
-			<p class="lead">Быстро и вкусно</p>
+			<p class="lead">Оперативно и вкусно</p>
 		</div>
 	</header>
 
-	<div class="container mb-5">
+	<div class="container mb-5 col-md-10">
 		<div class="row">
 
 			<!-- Товары -->
@@ -95,6 +138,7 @@
 
 	<!-- Основной -->
 	<script src="./js/controller.js" type="module"></script>
+	<script src="./js/menu.js" type="module"></script>
 
 </body>
 </html>

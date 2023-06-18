@@ -1,0 +1,110 @@
+[
+	{
+		"id": 1,
+		"title": "Филадельфия хит ролл",
+		"itemsInBox": 6,
+		"weight": 180,
+		"price": 300,
+		"imgSrc": "philadelphia.jpg",
+		"typeProduct": "rol"
+	},
+	{
+		"id": 2,
+		"title": "Калифорния темпура",
+		"itemsInBox": 6,
+		"weight": 205,
+		"price": 250,
+		"imgSrc": "california-tempura.jpg",
+		"typeProduct": "rol"
+	},
+	{
+		"id": 3,
+		"title": "Ролл с лососем и огурцом",
+		"itemsInBox": 6,
+		"weight": 182,
+		"price": 230,
+		"imgSrc": "Ролл с лососем и огурцом.jpg",
+		"typeProduct": "pizza"
+	},
+	{
+		"id": 4,
+		"title": "Филадельфия в кунжуте",
+		"itemsInBox": 6,
+		"weight": 230,
+		"price": 320,
+		"imgSrc": "filadelfiya-v-kunzhute.webp",
+		"typeProduct": "burger"
+	},
+	{
+		"id": 5,
+		"title": "Ролл в икре green",
+		"itemsInBox": 6,
+		"weight": 180,
+		"price": 300,
+		"imgSrc": "Ty9iiAhqDcs.jpg",
+		"typeProduct": "burger"
+	},
+	{
+		"id": 6,
+		"title": "Ролл «Арата»",
+		"itemsInBox": 6,
+		"weight": 205,
+		"price": 250,
+		"imgSrc": "3bfc0ddee38955da0e880e24522a2f77.jpg",
+		"typeProduct": "rol"
+	},
+	{
+		"id": 7,
+		"title": "Пицца фермерская",
+		"itemsInBox": 6,
+		"weight": 182,
+		"price": 230,
+		"imgSrc": "Пицца фермерская.jpg",
+		"typeProduct": "pizza"
+	},
+	{
+		"id": 8,
+		"title": "Пицца тигровая",
+		"itemsInBox": 6,
+		"weight": 230,
+		"price": 320,
+		"imgSrc": "Пицца тигровая.jpg",
+		"typeProduct": "rol"
+	},
+	{
+		"id": 9,
+		"title": "Пицца пепперони",
+		"itemsInBox": 6,
+		"weight": 180,
+		"price": 300,
+		"imgSrc": "Пицца пепперони.jpeg",
+		"typeProduct": "burger"
+	},
+	{
+		"id": 10,
+		"title": "Бургер с семгой и салатом",
+		"itemsInBox": 6,
+		"weight": 205,
+		"price": 250,
+		"imgSrc": "f3eab2b18e2a85e553e8a1e4ca50.webp",
+		"typeProduct": "rol"
+	},
+	{
+		"id": 11,
+		"title": "Запеченый ролл «Калифорния»",
+		"itemsInBox": 6,
+		"weight": 182,
+		"price": 230,
+		"imgSrc": "Багет с курицей.jpg",
+		"typeProduct": "pizza"
+	},
+	{
+		"id": 12,
+		"title": "Шаурма с овощами",
+		"itemsInBox": 6,
+		"weight": 230,
+		"price": 320,
+		"imgSrc": "shaurma-s-ovoshhami.jpg",
+		"typeProduct": "rol"
+	}
+]
